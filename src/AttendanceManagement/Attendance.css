@@ -1,0 +1,46 @@
+.AMPdashboard{
+    width: 75%;
+    position: relative;
+    left: 350px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.attendanceHeader{
+    /* border: 1px solid; */
+}
+.attendanceHeader ul{
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.589);
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.attendanceHeader nav ul li{
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(222, 222, 222);
+}
+.attendanceHeader a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.active{
+    background-color: #CE073D;
+}
+.active:hover{
+    background-color: #ff0044;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.284); 
+}
+.active a{
+    color: white;
+}
+.active:hover a{
+    font-weight: bold;
+}
