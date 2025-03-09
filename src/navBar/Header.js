@@ -24,7 +24,7 @@ function Header() {
                         <li>Payroll Management</li>
                         <li>User Roles</li>
                         <li>
-                            <Link to="/analytics">Reports & Analytics</Link>
+                            <Link to="/ReportsAnalyticsPage">Reports & Analytics</Link>
                         </li>
                         <li><Link to="/Settings">Settings</Link></li>
                     </ul>
