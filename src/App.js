@@ -14,20 +14,20 @@ import Settings from './Admin/Settings/Settings';
 
 function App() {
     return (
-        <UserRolesPage />
-        // <BrowserRouter>
-        //     <Header />
-        //     <Routes>
-        //         <Route path="/" element={<AttendanceDashboard />} />
-        //         <Route path="/attendance-dashboard" element={<AttendanceDashboard />} />
-        //         <Route path="/attendance-records" element={<AttendanceRecords />} />
-        //         <Route path="/manual-attendance" element={<ManualAttendance />} />
-        //         <Route path="/ReportsAnalyticsPage" element={<ReportsAnalyticsPage />} />
-        //         <Route path="/settings" element={<Settings />} />
-        //         <Route path="/userRoles" element={<UserRolesPage />} />
-        //         <Route path="/LeaveManagement" element={<LeaveManagement />} />
-        //     </Routes>
-        // </BrowserRouter>
+        // <UserRolesPage />
+        <BrowserRouter>
+            <Header />
+            <Routes>
+                <Route path="/" element={<AttendanceDashboard />} />
+                <Route path="/attendance-dashboard" element={<AttendanceDashboard />} />
+                <Route path="/attendance-records" element={<AttendanceRecords />} />
+                <Route path="/manual-attendance" element={<ManualAttendance />} />
+                <Route path="/ReportsAnalyticsPage" element={<ReportsAnalyticsPage />} />
+                <Route path="/settings" element={<Settings />} />
+                <Route path="/userRoles" element={<UserRolesPage />} />
+                <Route path="/LeaveManagement" element={<LeaveManagement />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
