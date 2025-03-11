@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import './LeaveManagement.css';
+// import './LeaveManagement.css';
+import '../Components/LeaveManagement.css';
 
 function LeaveManagement() {
   const fetchDataFromDatabase = () => {

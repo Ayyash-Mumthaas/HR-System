@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import AttendanceReports from "./AttendanceReports";
-import LeaveReports from "./LeaveReports";
-import PerformanceReports from "./PerformanceReports";
-import ExportButtons from "./ExportButtons";
+import AttendanceReports from "../Components/AttendanceReports";
+import LeaveReports from "../Components/LeaveReports";
+import PerformanceReports from "../Components/PerformanceReports";
+import ExportButtons from "../Components/ExportButtons";
 import { Dropdown, Button } from "antd";
-import './Style.css'
+import '../Components/ReportsAnalyticsPage.css'
 
 const ReportsAnalyticsPage = () => {
   const [selectedReport, setSelectedReport] = useState("attendance");

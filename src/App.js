@@ -1,16 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Admin/navBar/Header";
-import AttendanceDashboard from "./Admin/AttendanceManagement/AttendanceDashboard";
-import AttendanceRecords from "./Admin/AttendanceManagement/AttendanceRecords";
-import ManualAttendance from "./Admin/AttendanceManagement/ManualAttendance";
-import ReportsAnalyticsPage from "./Admin/Report/ReportsAnalyticsPage";
+import AttendanceDashboard from "./Admin/Pages/AttendanceDashboard";
+import AttendanceRecords from "./Admin/Components/AttendanceRecords";
+import ManualAttendance from "./Admin/Components/ManualAttendance";
+import ReportsAnalyticsPage from "./Admin/Pages/ReportsAnalyticsPage";
 import "./App.css";
-import LeaveManagement from './Admin/LeaveManagement/LeaveManagement'
-
-import UserRolesPage from "./Admin/UserRoles/UserRolesPage";
-
-import Settings from './Admin/Settings/Settings';
+import LeaveManagement from './Admin/Pages/LeaveManagement'
 
 function App() {
     return (
@@ -23,8 +19,6 @@ function App() {
                 <Route path="/attendance-records" element={<AttendanceRecords />} />
                 <Route path="/manual-attendance" element={<ManualAttendance />} />
                 <Route path="/ReportsAnalyticsPage" element={<ReportsAnalyticsPage />} />
-                <Route path="/settings" element={<Settings />} />
-                <Route path="/userRoles" element={<UserRolesPage />} />
                 <Route path="/LeaveManagement" element={<LeaveManagement />} />
             </Routes>
         </BrowserRouter>
