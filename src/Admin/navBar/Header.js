@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ICSTlogo from "../img/IcstLogo.png";
+import ICSTlogo from "../../img/IcstLogo.png";
 import "./Header.css";
 
 function Header() {
@@ -20,9 +20,9 @@ function Header() {
                         <li>
                             <Link to="/attendance-dashboard">Attendance Management</Link>
                         </li>
-                        <li>Leave Management</li>
+                        <li><Link to="/LeaveManagement">Leave Management</Link></li>
                         <li>Payroll Management</li>
-                        <li>User Roles</li>
+                        <li><Link to="/UserRolesPage">User Roles</Link></li>
                         <li>
                             <Link to="/ReportsAnalyticsPage">Reports & Analytics</Link>
                         </li>
