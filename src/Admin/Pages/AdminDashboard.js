@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../navBar/Header";
+import '../../index.css';
+
 
 function AdminDashboard(){
     return(
